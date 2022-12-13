@@ -5,7 +5,7 @@ import './styles/submitButton.css';
 
 function SubmitButton(props) {
 
-    return <div>{props.title}</div>
+    return <button type='button'>{props.title}</button>
 }
 
 export default SubmitButton;

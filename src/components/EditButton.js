@@ -5,7 +5,7 @@ import './styles/editButton.css';
 
 function EditButton(props) {
 
-    return <div>{props.title}</div>
+    return <button type='button'>{props.title}</button>
 }
 
 export default EditButton;

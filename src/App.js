@@ -14,7 +14,6 @@ function App() {
       <div id='appTitle'>CV Application</div>
       <div id='pageContent'>        
         <div id='contactInfoComponent'>
-          <div className='componentTitle'>Contact Information</div> {/*add in actual component*/}
           <ContactInfo title="Contact Info Component" />
         </div>
         <div id='educationComponent'>
