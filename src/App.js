@@ -14,11 +14,10 @@ function App() {
       <div id='appTitle'>CV Application</div>
       <div id='pageContent'>        
         <div id='contactInfoComponent'>
-          <ContactInfo title="Contact Info Component" />
+          <ContactInfo title="Contact Info" />
         </div>
         <div id='educationComponent'>
-          <div className='componentTitle'>Education</div> {/*add in actual component*/}
-          <Education title="Education Component" />
+          <Education title="Education" />
         </div>
         <div id='ExperienceComponent'>
           <div className='componentTitle'>Experience</div> {/*add in actual component*/}
