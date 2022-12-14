@@ -20,8 +20,7 @@ function App() {
           <Education title="Education" />
         </div>
         <div id='ExperienceComponent'>
-          <div className='componentTitle'>Experience</div> {/*add in actual component*/}
-          <Experience title="Experience Component" />
+          <Experience title="Experience" />
         </div>        
       </div>  
       <div id='submitCV'>
