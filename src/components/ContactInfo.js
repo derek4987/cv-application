@@ -9,18 +9,18 @@ function ContactInfo(props) {
 
     return (
     	<>
-    	<div className='componentTitle'>{props.title}</div>
+    	<div className='ciComponentTitle'>{props.title}</div>
     	<div>
-				<label>Name:</label>
-				<input type='text' pattern='[a-zA-Z]*' />
+				<label className='ciLabel'>Name:</label>
+				<input id='ciName' type='text' pattern='[a-zA-Z]*' />
     	</div>
 			<div>
-				<label>Email:</label>
-				<input type='email' />
+				<label className='ciLabel'>Email:</label>
+				<input id='ciEmail' type='email' />
     	</div>
 			<div>
-				<label>Phone number:</label>
-				<input type='number' minLength='10' maxLength='10'/>
+				<label className='ciLabel'>Phone number:</label>
+				<input id='ciNumber' type='number' minLength='10' maxLength='10'/>
     	</div>
 			<div>
 				<EditButton title="Edit" />

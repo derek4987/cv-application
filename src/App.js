@@ -19,7 +19,7 @@ function App() {
         <div id='educationComponent'>
           <Education title="Education" />
         </div>
-        <div id='ExperienceComponent'>
+        <div id='experienceComponent'>
           <Experience title="Experience" />
         </div>        
       </div>  

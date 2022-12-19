@@ -16,7 +16,7 @@ button {
 }
 
 #bgApp {
-  background-color: rgb(112, 128, 144);
+  background-color: rgb(170, 195, 220);
   min-height: 100vh;
   min-width: 100vw;
   display: flex;
@@ -27,21 +27,47 @@ button {
 #pageContent {
   min-height: auto;
   width: 80vw;
-  background-color: rgb(112, 128, 144);
+  background-color: rgb(170, 195, 220);
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 15px;
 }
 
 #appTitle {
   font-size: 2rem;
-
+  padding: 15px;
 }
 
 /* contact info component */
-
+#contactInfoComponent {
+  border: 3px solid white;
+  border-radius: 20px;
+  padding: 15px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+}
 
 /* education component */
-
+#educationComponent {
+  border: 3px solid white;
+  border-radius: 20px;
+  padding: 15px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+}
 
 /* experience component */
+#experienceComponent {
+  border: 3px solid white;
+  border-radius: 20px;
+  padding: 15px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+}
