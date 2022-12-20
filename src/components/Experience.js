@@ -10,63 +10,63 @@ function Experience(props) {
     return (
     	<>
     	<div className='componentTitle'>{props.title}</div>
-			<div>Enter your three most recent positions</div>
+			<div className='labels'>Enter your three most recent positions</div>
 
-    	<div>
-				<label>Company name:</label>
+    	<div className='labelInput'>
+				<label className='labels'>Company name:</label>
 				<input type='text' />
     	</div>
 			<div>
-				<div>Dates attended:</div>
-				<div>
-					<label>From:</label>
+				<div className='labels'>Dates attended:</div>
+				<div className='labelInput'>
+					<label className='labels'>From:</label>
 					<input type='month' />
-					<label>To:</label>
+					<label className='labels'>To:</label>
 					<input type='month' />
 				</div>
     	</div>
-			<div>
-				<label>Description of role:</label>
+			<div className='labelTextarea'>
+				<label className='labels'>Description of role:</label>
 				<textarea />
     	</div>
 
-			<div>
-				<label>Company name:</label>
+			<div className='labelInput'>
+				<label className='labels'>Company name:</label>
 				<input type='text' />
     	</div>
 			<div>
-				<div>Dates attended:</div>
-				<div>
-					<label>From:</label>
+				<div className='labels'>Dates attended:</div>
+				<div className='labelInput'>
+					<label className='labels'>From:</label>
 					<input type='month' />
-					<label>To:</label>
+					<label className='labels'>To:</label>
 					<input type='month' />
 				</div>
     	</div>
-			<div>
-				<label>Description of role:</label>
+			<div className='labelTextarea'>
+				<label className='labels'>Description of role:</label>
 				<textarea />
     	</div>
 
-			<div>
-				<label>Company name:</label>
+			<div className='labelInput'>
+				<label className='labels'>Company name:</label>
 				<input type='text' />
     	</div>
 			<div>
-				<div>Dates attended:</div>
-				<div>
-					<label>From:</label>
+				<div className='labels'>Dates attended:</div>
+				<div className='labelInput'>
+					<label className='labels'>From:</label>
 					<input type='month' />
-					<label>To:</label>
+					<label className='labels'>To:</label>
 					<input type='month' />
 				</div>
     	</div>
-			<div>
-				<label>Description of role:</label>
+			<div className='labelTextarea'>
+				<label className='labels'>Description of role:</label>
 				<textarea />
     	</div>
 			
-			<div>
+			<div className='buttonsDiv'>
 				<EditButton title="Edit" />
 				<SubmitButton title="Submit" />
 			</div>

@@ -39,6 +39,36 @@ button {
   padding: 15px;
 }
 
+/* general class for all components */
+.labels {
+  font-size: 1.1rem;
+}
+
+.componentTitle {
+  font-size: 1.5rem;
+}
+
+.labelInput {
+  display: flex;
+  gap: 10px;
+}
+
+.buttonsDiv {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+textarea {
+  width: 400px;
+  height: 200px;
+  resize: none;
+}
+
+input {
+  font-size: 1.1rem;
+}
+
 /* contact info component */
 #contactInfoComponent {
   border: 3px solid white;
@@ -46,8 +76,16 @@ button {
   padding: 15px 30px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 450px;
+  gap: 10px;
+}
+
+#contactInfoComponent > .componentTitle {
+  align-self: center;
+}
+
+#contactInfoComponent .labelInput {
+  margin-left: 87px;
 }
 
 /* education component */
@@ -61,6 +99,10 @@ button {
   width: 450px;
 }
 
+.labelCheckbox {
+
+}
+
 /* experience component */
 #experienceComponent {
   border: 3px solid white;
@@ -70,4 +112,31 @@ button {
   flex-direction: column;
   align-items: center;
   width: 450px;
+}
+
+.labelTextarea {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Buttons component */
+.buttons {
+  font-size: 1.1rem;
+  padding: 2px 0px;
+  width: 80px;
+  border-radius: 5px;
+  border: 1px solid rgb(70, 118, 215);
+  color: white;
+  background-color: rgb(70, 118, 215);
+}
+
+.buttons:hover {
+  background-color: rgb(29, 73, 170);
+  border: 1px solid rgb(29, 73, 170);
+}
+
+.buttons:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px rgb(203, 214, 238);
 }
