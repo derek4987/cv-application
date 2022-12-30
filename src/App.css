@@ -69,6 +69,11 @@ input {
   font-size: 1.1rem;
 }
 
+.readonly {
+  pointer-events: none;
+  background-color: rgb(226, 226, 226);
+}
+
 /* contact info component */
 #contactInfoComponent {
   border: 3px solid white;
